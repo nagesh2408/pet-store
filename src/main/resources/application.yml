@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: ${DB_User}
+    password: ${DB_Password}
+    url: ${DB_URL}
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    generate-ddl: true
+  hibernate:
+    ddl-auto: update
